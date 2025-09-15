@@ -665,6 +665,7 @@ AL:RegisterTranslations("enUS", function() return {
     ["Grizikil"] = true,
     ["Grizzle"] = true,
     ["Grobbulus"] = true,
+	["Group wishlist by dungeon"] = true,
     ["Grovetender Engryss"] = true,
     ["Grubbis"] = true,
     ["Grug'thok the Seer"] = true,
@@ -1692,5 +1693,7 @@ AL:RegisterTranslations("enUS", function() return {
     ["|cffff0000(unsafe)"] = true,
     ["|cffff0000Right-Click|r View Options"] = true,
     ["|cffff0000Shift-Click|r View Options"] = true,
+	
+	["Rare Spawns"] = true,
 }
 end)

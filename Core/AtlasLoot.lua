@@ -2375,7 +2375,7 @@ AtlasLoot_HewdropDown = {
 			{ { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
 		},
 	},
-	{{ "Rare Spawns", "RareSpawns", "Submenu" },},
+	{{ AL["Rare Spawns"], "RareSpawns", "Submenu" },},
 };
 
 --This table defines all the subtables needed for the full menu

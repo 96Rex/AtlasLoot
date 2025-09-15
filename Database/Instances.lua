@@ -431,8 +431,8 @@ AtlasLootBossButtons = {
 	};
 	RagefireChasm = {
 		"";
-		"";
 		"RFCOggleflint";
+		"";
 		"RFCTaragaman";
 		"RFCJergosh";
 		"RFCBazzalan";
