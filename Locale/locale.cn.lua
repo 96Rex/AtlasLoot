@@ -71,7 +71,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Factions"] = "阵营声望",
 ["World Events"] = "世界活动",
 ["Crafting"] = "专业制造",
-["Rare Spawns"] = "稀有怪物",
+["Rare Spawns"] = "野外稀有",
 
 --副本&团本
 ["[13-18] Ragefire Chasm"] = "怒焰裂谷",

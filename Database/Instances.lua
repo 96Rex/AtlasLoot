@@ -1,11 +1,73 @@
 --------------------------------------------------------------------------------
--- AtlasBossButtons (default english)
+-- Atlas领主按钮 (默认中文)
 --------------------------------------------------------------------------------
 local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
 AtlasLootBossButtons = {
-	BlackfathomDeeps = {
+--副本
+	RagefireChasm = {
+		"RFCOggleflint";
 		"";
+		"RFCTaragaman";
+		"RFCJergosh";
+		"RFCBazzalan";
+	};
+	WailingCaverns = {
+		"WCLordCobrahn";
+		"WCLadyAnacondra";
+		"WCKresh";
+		"WCDeviateFaerieDragon";
+		"WCZandara";
+		"WCLordPythas";
+		"WCSkum";
+		"WCVangros";
+		"WCLordSerpentis";
+		"WCVerdan";
+		"WCMutanus";
+		"";
+		"WCTrash";
+		"WAILING";
+	};
+	TheDeadmines = {
+		"DMJaredVoss";
+		"DMRhahkZor";
+		"DMMinerJohnson";
+		"DMSneed";
+		"DMSneedsShredder";
+		"DMHarvester";
+		"DMGilnid";
+		"";
+		"DMMrSmite";
+		"DMCookie";
+		"DMCaptainGreenskin";
+		"DMVanCleef";
+		"";
+		"DMTrash";
+		"DEADMINES";
+	};
+	ShadowfangKeep = {
+		"SFKRethilgore";
+		"";
+		"";
+		"";
+		"SFKFelSteed";
+		"";
+		"SFKRazorclawtheButcher";
+		"SFKSilverlaine";
+		"SFKSever";
+		"SFKPrelate";
+		"SFKSpringvale";
+		"SFKOdotheBlindwatcher";
+		"SFKDeathswornCaptain";
+		"SFKFenrustheDevourer";
+		"SFKArugalsVoidwalker";
+		"";
+		"SFKWolfMasterNandos";
+		"SFKArchmageArugal";
+		"";
+		"SFKTrash";
+	};
+	BlackfathomDeeps = {
 		"BFDGhamoora";
 		"";
 		"BFDLadySarevess";
@@ -13,9 +75,9 @@ AtlasLootBossButtons = {
 		"BFDGelihast";
 		"";
 		"";
+		"BFDVelthelaxx",
 		"BFDBaronAquanis";
 		"";
-		"BFDVelthelaxx",
 		"BFDTwilightLordKelris";
 		"BFDOldSerrakis";
 		"BFDAkumai";
@@ -23,6 +85,288 @@ AtlasLootBossButtons = {
 		"";
 		"";
 		"BFDTrash";
+	};
+	TheStockade = {
+		"";
+		"SWStTargorr";
+		"SWStKamDeepfury";
+		"SWStHamhock";
+		"SWStBazil";
+		"SWStDextren";
+		"SWStBruegalIronknuckle";
+		"";
+		"SWStTrash";
+	};
+	DragonmawRetreat = {
+		"",
+		"",
+		"DMRGowlfang",
+		"DMRBroodmother",
+		"DMRWebMaster",
+		"DMRGarlok",
+		"DMRHalgan",
+		"DMRSlagfist",
+		"DMROverlord",
+		"DMRElderHollowblood",
+		"DMRSearistrasz",
+		"DMRZuluhed",
+		"",
+		"DMRTrash",
+	};
+	Gnomeregan = {
+		"VanillaKeys";
+		"";
+		"";
+		"";
+		"GnGrubbis";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"GnPunchographB";
+		"GnViscousFallout";
+		"GnElectrocutioner6000";
+		"GnPunchographC";
+		"GnCrowdPummeler960";
+		"GnPunchographD";
+		"GnDIAmbassador";
+		"GnMekgineerThermaplugg";
+		"";
+		"GnTrash";
+	};
+	RazorfenKraul = {
+		"";
+		"";
+		"RFKAggem";
+		"RFKDeathSpeakerJargba";
+		"RFKOverlordRamtusk";
+		"RFKRazorfenSpearhide";
+		"RFKAgathelos";
+		"RFKBlindHunter";
+		"RFKCharlgaRazorflank";
+		"";
+		"";
+		"RFKEarthcallerHalmgar";
+		"RFKRotthorn",
+		"";
+		"RFKTrash";
+	};
+	SMGraveyard = {
+		"";
+		"SMVishas";
+		"";
+		"SMScorn";
+		"SMBloodmageThalnos";
+		"SMIronspine";
+		"SMAzshir";
+		"SMFallenChampion";
+		"SMDukeDreadmoore";
+		"";
+		"SMGTrash";
+		"SCARLET";
+	};
+	SMLibrary = {
+		"";
+		"SMHoundmasterLoksey";
+		"SMDoan";
+		"SMDoansBox";
+		"SMBrotherWystan";
+		"";
+		"SMLTrash";
+		"SCARLET";
+	};
+	StormwroughtRuins = {
+		"",
+		"",
+		"SWROronok",
+		"SWRDagar",
+		"SWRDukeBalor",
+		"SWRLibrarian",
+		"SWRChieftain",
+		"SWRDeathlord",
+		"SWRSubjugator",
+		"SWRMycellakos",
+		"SWREldermaw",
+		"SWRLadyDrazare",
+		"SWRRemains",
+		"SWRMergothid",
+		"",
+		"",
+		"SWRTrash",
+	};
+	TheCrescentGrove = {
+		"";
+		"";
+		"TCGGrovetenderEngryss";
+		"TCGKeeperRanathos";
+		"TCGHighPriestessAlathea";
+		"TCGFenektistheDeceiver";
+		"TCGMasterRaxxieth";
+		"TCGTrash";
+	};
+	SMArmory = {
+		"VanillaKeys";
+		"";
+		"SMHerod";
+		"SMQuartermaster";
+		"";
+		"SMATrash";
+		"SCARLET";
+	};
+	RazorfenDowns = {
+		"";
+		"RFDTutenkash";
+		"RFDHenryStern";
+		"";
+		"";
+		"RFDLadyF";
+		"RFDMordreshFireEye";
+		"RFDGlutton";
+		"RFDRagglesnout";
+		"RFDDeathProphet",
+		"RFDAmnennar";
+		"RFDPlaguemaw";
+		"";
+		"RFDTrash";
+	};
+	SMCathedral = {
+		"VanillaKeys";
+		"";
+		"SMFairbanks";
+		"SMMograine";
+		"SMWhitemane";
+		"";
+		"SMCTrash";
+		"SCARLET";
+	};
+	ZulFarrak = {
+		"VanillaKeys";
+		"";
+		"ZFZerillis";
+		"ZFAntusul";
+		"ZFThekatheMartyr";
+		"ZFWitchDoctorZumrah";
+		"";
+		"ZFNekrumGutchewer";
+		"ZFSezzziz";
+		"ZFDustwraith";
+		"ZFSergeantBly";
+		"";
+		"";
+		"";
+		"";
+		"ZFSandfury";
+		"ZFChiefUkorzSandscalp";
+		"";
+		"ZFHydromancerVelratha";
+		"ZFGahzrilla";
+		"LunarFestival1";
+		"ZFZeljeb",
+		"ZFChampion";
+		"";
+		"";
+		"ZFTrash";
+	};
+	GilneasCity = {
+		"";
+		"GCMatthiasHoltz";
+		"GCPackmasterRagetooth";
+		"";
+		"";
+		"GCJudgeSutherland";
+		"GCDustivanBlackcowl";
+		"GCMarshalMagnusGreystone";
+		"GCHorsemasterLevvin";
+		"GCHarlowFamilyChest";
+		"GCGennGreymane";
+		"GCTrash";
+	};
+	Uldaman = {
+		"VanillaKeys";
+		"";
+		"";
+		"UldBaelog";
+		"UldEric";
+		"UldOlaf";
+		"UldBaelogsChest";
+		"";
+		"";
+		"UldRevelosh";
+		"UldIronaya";
+		"";
+		"";
+		"UldAncientStoneKeeper";
+		"UldGalgannFirehammer";
+		"UldTabletofWill";
+		"UldShadowforgeCache";
+		"UldGrimlok";
+		"UldArchaedas";
+		"";
+		"";
+		"";
+		"UldTrash";
+	};
+	Maraudon = {
+		"VanillaKeys";
+		"";
+		"";
+		"";
+		"MaraKhanVeng";
+		"MaraNoxxion";
+		"MaraRazorlash";
+		"MaraKhanMaraudos";
+		"MaraLordVyletongue";
+		"MaraMeshlok";
+		"MaraCelebras";
+		"MaraLandslide";
+		"MaraTinkererGizlock";
+		"MaraRotgrip";
+		"MaraPrincessTheradras";
+		"LunarFestival1";
+		"MaraTrash";
+	};
+	TheSunkenTemple = {
+		"";
+		"VanillaKeys";
+		"";
+		"";
+		"STBalconyMinibosses";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"STAtalalarion";
+		"STSpawnOfHakkar";
+		"STAvatarofHakkar";
+		"STJammalan";
+		"STOgom";
+		"LunarFestival1";
+		"STDreamscythe";
+		"STWeaver";
+		"STMorphaz";
+		"STHazzas";
+		"STEranikus";
+		"";
+		"";
+		"";
+		"";
+		"STTrash";
+	};
+	HateforgeQuarry = {
+		"";
+		"HQHighForemanBargulBlackhammer";
+		"HQEngineerFiggles";
+		"";
+		"HQCorrosis";
+		"HQHatereaverAnnihilator";
+		"HQHargeshDoomcaller";
+		"HQTrash";
 	};
 	BlackrockDepths = {
 		"VanillaKeys";
@@ -97,50 +441,6 @@ AtlasLootBossButtons = {
 		"BLACKROCKD";
 		"IRONWEAVE";
 	};
-	BlackrockMountainEnt = {
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"BRDPyron";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"BRMScarshieldQuartermaster";
-	};
-	BlackrockSpireUpper = {
-		"VanillaKeys";
-		"VanillaKeys";
-		"";
-		"";
-		"";
-		"UBRSEmberseer";
-		"UBRSSolakar";
-		"UBRSFlame";
-		"";
-		"";
-		"UBRSRunewatcher";
-		"UBRSAnvilcrack";
-		"UBRSRend";
-		"UBRSGyth";
-		"";
-		"UBRSBeast";
-		"UBRSValthalak";
-		"";
-		"UBRSDrakkisath";
-		"";
-		"";
-		"";
-		"UBRSTrash";
-		"IRONWEAVE";
-		"T0SET";
-	};
 	BlackrockSpireLower = {
 		"VanillaKeys";
 		"";
@@ -179,26 +479,6 @@ AtlasLootBossButtons = {
 		"IRONWEAVE";
 		"SpiderKiss";
 		"T0SET";
-	};
-	BlackwingLair = {
-		"";
-		"";
-		"";
-		"";
-		"BWLRazorgore";
-		"BWLVaelastrasz";
-		"BWLLashlayer";
-		"BWLFiremaw";
-		"";
-		"BWLEbonroc";
-		"BWLFlamegor";
-		"BWLChromaggus";
-		"BWLNefarian";
-		"";
-		"";
-		"";
-		"BWLTrashMobs";
-		"T2SET";
 	};
 	DireMaulEast = {
 		"VanillaKeys";
@@ -282,194 +562,6 @@ AtlasLootBossButtons = {
 		"DMWTrash";
 		"DMWBooks";
 	};
-	DireMaulEnt = {
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"LunarFestival1";
-	};
-	Gnomeregan = {
-		"VanillaKeys";
-		"";
-		"";
-		"";
-		"GnGrubbis";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"GnPunchographB";
-		"GnViscousFallout";
-		"GnElectrocutioner6000";
-		"GnPunchographC";
-		"GnCrowdPummeler960";
-		"GnPunchographD";
-		"GnDIAmbassador";
-		"GnMekgineerThermaplugg";
-		"";
-		"GnTrash";
-	};
-	GnomereganEnt = {
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"GnPunchographA";
-		"GnNamdoBizzfizzle";
-		"GnTechbot";
-		"";
-		"GnOutsideTrash";
-	};
-	Maraudon = {
-		"VanillaKeys";
-		"";
-		"";
-		"";
-		"MaraKhanVeng";
-		"MaraNoxxion";
-		"MaraRazorlash";
-		"MaraKhanMaraudos";
-		"MaraLordVyletongue";
-		"MaraMeshlok";
-		"MaraCelebras";
-		"MaraLandslide";
-		"MaraTinkererGizlock";
-		"MaraRotgrip";
-		"MaraPrincessTheradras";
-		"LunarFestival1";
-		"MaraTrash";
-	};
-	MaraudonEnt = {
-		"";
-		"MaraNamelesProphet";
-		"";
-		"";
-		"";
-		"MaraKhanKolk";
-		"MaraKhanGelk";
-		"MaraKhanMagra";
-		"";
-	};
-	MoltenCore = {
-		"";
-		"WaterLords1";
-		"VanillaKeys";
-		"VanillaKeys";
-		"";
-		"MCIncindis";
-		"MCLucifron";
-		"MCMagmadar";
-		-- "MCGehennas";
-		"MCGarr";
-		"MCGeddon";
-		"MCShazzrah";
-		"MCSulfuron";
-		"MCGolemagg";
-		"MCTwins";
-		"MCThaurissan";
-		"MCMajordomo";
-		"MCRagnaros";
-		"";
-		"MCTrashMobs";
-		"MCRANDOMBOSSDROPS";
-		"T1SET";
-		"T2SET";
-	};
-	Naxxramas = {
-		"";
-		"Argent1";
-		"";
-		"";
-		"";
-		"";
-		"NAXPatchwerk";
-		"NAXGrobbulus";
-		"NAXGluth";
-		"NAXThaddius";
-		"";
-		"NAXAnubRekhan";
-		"NAXGrandWidowFaerlina";
-		"NAXMaexxna";
-		"";
-		"NAXNoththePlaguebringer";
-		"NAXHeigantheUnclean";
-		"NAXLoatheb";
-		"";
-		"NAXInstructorRazuvious";
-		"NAXGothiktheHarvester";
-		"NAXTheFourHorsemen";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"NAXSapphiron";
-		"NAXKelThuzard";
-		"";
-		"NAXTrash";
-		"T3SET";
-	};
-	OnyxiasLair = {
-		"";
-		"VanillaKeys";
-		"";
-		"";
-		"";
-		"Onyxia";
-	};
-	RagefireChasm = {
-		"";
-		"RFCOggleflint";
-		"";
-		"RFCTaragaman";
-		"RFCJergosh";
-		"RFCBazzalan";
-	};
-	RazorfenDowns = {
-		"";
-		"RFDTutenkash";
-		"RFDHenryStern";
-		"";
-		"";
-		"RFDLadyF";
-		"RFDMordreshFireEye";
-		"RFDGlutton";
-		"RFDRagglesnout";
-		"RFDDeathProphet",
-		"RFDAmnennar";
-		"RFDPlaguemaw";
-		"";
-		"RFDTrash";
-	};
-	RazorfenKraul = {
-		"";
-		"";
-		"RFKAggem";
-		"RFKDeathSpeakerJargba";
-		"RFKOverlordRamtusk";
-		"RFKRazorfenSpearhide";
-		"RFKAgathelos";
-		"RFKBlindHunter";
-		"RFKCharlgaRazorflank";
-		"";
-		"";
-		"RFKEarthcallerHalmgar";
-		"RFKRotthorn",
-		"";
-		"RFKTrash";
-	};
 	Scholomance = {
 		"Argent1";
 		"VanillaKeys";
@@ -513,72 +605,6 @@ AtlasLootBossButtons = {
 		"ScholoPlate";
 		"IRONWEAVE";
 		"T0SET";
-	};
-	ShadowfangKeep = {
-		"";
-		"SFKRethilgore";
-		"";
-		"";
-		"";
-		"SFKFelSteed";
-		"SFKJordansHammer";
-		"SFKRazorclawtheButcher";
-		"SFKSilverlaine";
-		"SFKSpringvale";
-		"SFKSever";
-		"SFKOdotheBlindwatcher";
-		"SFKDeathswornCaptain";
-		"SFKFenrustheDevourer";
-		"SFKArugalsVoidwalker";
-		"SFKBookofUr";
-		"SFKWolfMasterNandos";
-		"SFKArchmageArugal";
-		"SFKPrelate";
-		"";
-		"SFKTrash";
-	};
-	SMArmory = {
-		"VanillaKeys";
-		"";
-		"SMHerod";
-		"SMQuartermaster";
-		"";
-		"SMATrash";
-		"SCARLET";
-	};
-	SMCathedral = {
-		"VanillaKeys";
-		"";
-		"SMFairbanks";
-		"SMMograine";
-		"SMWhitemane";
-		"";
-		"SMCTrash";
-		"SCARLET";
-	};
-	SMGraveyard = {
-		"";
-		"SMVishas";
-		"";
-		"SMScorn";
-		"SMBloodmageThalnos";
-		"SMIronspine";
-		"SMAzshir";
-		"SMFallenChampion";
-		"SMDukeDreadmoore";
-		"";
-		"SMGTrash";
-		"SCARLET";
-	};
-	SMLibrary = {
-		"";
-		"SMHoundmasterLoksey";
-		"SMDoan";
-		"SMDoansBox";
-		"SMBrotherWystan";
-		"";
-		"SMLTrash";
-		"SCARLET";
 	};
 	Stratholme = {
 		"Argent1";
@@ -630,15 +656,32 @@ AtlasLootBossButtons = {
 		"IRONWEAVE";
 		"T0SET";
 	};
-	TheCrescentGrove = {
+	BlackrockSpireUpper = {
+		"VanillaKeys";
+		"VanillaKeys";
 		"";
 		"";
-		"TCGGrovetenderEngryss";
-		"TCGKeeperRanathos";
-		"TCGHighPriestessAlathea";
-		"TCGFenektistheDeceiver";
-		"TCGMasterRaxxieth";
-		"TCGTrash";
+		"";
+		"UBRSEmberseer";
+		"UBRSSolakar";
+		"UBRSFlame";
+		"";
+		"";
+		"UBRSRunewatcher";
+		"UBRSAnvilcrack";
+		"UBRSRend";
+		"UBRSGyth";
+		"";
+		"UBRSBeast";
+		"UBRSValthalak";
+		"";
+		"UBRSDrakkisath";
+		"";
+		"";
+		"";
+		"UBRSTrash";
+		"IRONWEAVE";
+		"T0SET";
 	};
 	KarazhanCrypt = {
 		"";
@@ -652,18 +695,6 @@ AtlasLootBossButtons = {
 		"KCTreasure";
 		"KCTrash";
 	};
-	CavernsOfTimeBlackMorass = {
-		"";
-		"";
-		"COTBMChronar";
-		"COTBMEpidamu";
-		"COTBMDriftingAvatar";
-		"COTBMTimeLordEpochronos";
-		"COTBMMossheart";
-		"COTBMAntnormi";
-		"COTBMRotmaw";
-		"COTTrash";
-	};
 	StormwindVault = {
 		"";
 		"SWVAszoshGrimflame";
@@ -676,245 +707,52 @@ AtlasLootBossButtons = {
 		"";
 		"SWVTrash";
 	};
-	HateforgeQuarry = {
+	CavernsOfTimeBlackMorass = {
 		"";
-		"HQHighForemanBargulBlackhammer";
-		"HQEngineerFiggles";
 		"";
-		"HQCorrosis";
-		"HQHatereaverAnnihilator";
-		"HQHargeshDoomcaller";
-		"HQTrash";
+		"COTBMChronar";
+		"COTBMEpidamu";
+		"COTBMDriftingAvatar";
+		"COTBMTimeLordEpochronos";
+		"COTBMMossheart";
+		"COTBMAntnormi";
+		"COTBMRotmaw";
+		"COTTrash";
 	};
-	TheDeadmines = {
+--团本
+	LowerKara = {
 		"";
 		"";
-		"DMJaredVoss";
-		"DMRhahkZor";
-		"DMMinerJohnson";
-		"DMSneed";
-		"DMSneedsShredder";
-		"DMGilnid";
-		--"DMDefiasGunpowder";
-		"DMHarvester";
-		"DMMrSmite";
-		"DMCookie";
-		"DMCaptainGreenskin";
-		"DMVanCleef";
+		"LKHRolfen";
 		"";
-		"DMTrash";
-		"DEADMINES";
+		"";
+		"LKHBroodQueenAraxxna";
+		"LKHGrizikil";
+		"";
+		"LKHClawlordHowlfang";
+		"LKHLordBlackwaldII";
+		"";
+		"";
+		"";
+		"LKHMoroes";
+		"LKHTrash";
+		"LKHEnchants";
 	};
-	TheDeadminesEnt = {
-		"";
-		"";
-		"DMMarisaduPaige";
-		"DMBrainwashedNoble";
-		"DMForemanThistlenettle";
-	};
-	TheRuinsofAhnQiraj = {
-		"Cenarion1";
-		"";
-		"AQ20Kurinnaxx";
-		"AQ20Andorov";
-		"";
-		"AQ20Rajaxx";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20CAPTAIN";
-		"AQ20Moam";
-		"AQ20Buru";
-		"AQ20Ayamiss";
-		"AQ20Ossirian";
-		"";
-		"";
-		"AQ20Trash";
-		"AQ20ClassBooks";
-		"AQ20Enchants";
-		"AQ20SET";
-	};
-	TheStockade = {
-		"";
-		"SWStTargorr";
-		"SWStKamDeepfury";
-		"SWStHamhock";
-		"SWStBazil";
-		"SWStDextren";
-		"SWStBruegalIronknuckle";
-		"";
-		"SWStTrash";
-	};
-	TheSunkenTemple = {
+	OnyxiasLair = {
 		"";
 		"VanillaKeys";
 		"";
 		"";
-		"STBalconyMinibosses";
 		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"STAtalalarion";
-		"STSpawnOfHakkar";
-		"STAvatarofHakkar";
-		"STJammalan";
-		"STOgom";
-		"LunarFestival1";
-		"STDreamscythe";
-		"STWeaver";
-		"STMorphaz";
-		"STHazzas";
-		"STEranikus";
-		"";
-		"";
-		"";
-		"";
-		"STTrash";
+		"Onyxia";
 	};
-	TheTempleofAhnQiraj = {
-		"AQBroodRings";
-		"";
-		"AQ40Skeram";
-		"AQ40Trio";
-		"";
-		"";
-		"";
-		"AQ40Sartura";
-		"AQ40Fankriss";
-		"AQ40Viscidus";
-		"AQ40Huhuran";
-		"AQ40Emperors";
-		"";
-		"";
-		"AQ40Ouro";
-		"AQ40CThun";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"AQ40Trash1";
-		"AQEnchants";
-		"AQ40SET";
-		"AQOpening";
-	};
-	Uldaman = {
-		"VanillaKeys";
-		"";
-		"";
-		"UldBaelog";
-		"UldEric";
-		"UldOlaf";
-		"UldBaelogsChest";
-		"";
-		"";
-		"UldRevelosh";
-		"UldIronaya";
-		"";
-		"";
-		"UldAncientStoneKeeper";
-		"UldGalgannFirehammer";
-		"UldTabletofWill";
-		"UldShadowforgeCache";
-		"UldGrimlok";
-		"UldArchaedas";
-		"";
-		"";
-		"";
-		"UldTrash";
-	};
-	UldamanEnt = {
-		"";
-		"";
-		"";
-		"UldMagreganDeepshadow";
-		"UldTabletofRyuneh";
-		"UldKromStoutarmChest";
-		"UldGarrettFamilyChest";
-		"UldShovelphlange";
-	};
-	GilneasCity = {
-		"";
-		"GCMatthiasHoltz";
-		"GCPackmasterRagetooth";
-		"";
-		"";
-		"GCJudgeSutherland";
-		"GCDustivanBlackcowl";
-		"GCMarshalMagnusGreystone";
-		"GCHorsemasterLevvin";
-		"GCHarlowFamilyChest";
-		"GCGennGreymane";
-		"GCTrash";
-	};
-	WailingCaverns = {
-		"";
-		"";
-		"WCLordCobrahn";
-		"WCLadyAnacondra";
-		"WCKresh";
-		"WCDeviateFaerieDragon";
-		"WCZandara";
-		"WCLordPythas";
-		"WCSkum";
-		"WCVangros";
-		"WCLordSerpentis";
-		"WCVerdan";
-		"WCMutanus";
-		"";
-		"";
-		"WCTrash";
-		"WAILING";
-	};
-	WailingCavernsEnt = {
-		"";
-		"";
-		"WCMadMagglish";
-		"WCTrigoretheLasher";
-		"WCBoahn";
-		"";
-		"";
-		"";
-		"";
-		"WCKalldanFelmoon";
-		"";
-	};
-	ZulFarrak = {
-		"VanillaKeys";
-		"";
-		"ZFZerillis";
-		"ZFAntusul";
-		"ZFThekatheMartyr";
-		"ZFWitchDoctorZumrah";
-		"";
-		"ZFNekrumGutchewer";
-		"ZFSezzziz";
-		"ZFDustwraith";
-		"ZFSergeantBly";
-		"";
-		"";
-		"";
-		"";
-		"ZFSandfury";
-		"ZFChiefUkorzSandscalp";
-		"";
-		"ZFHydromancerVelratha";
-		"ZFGahzrilla";
-		"LunarFestival1";
-		"ZFZeljeb",
-		"ZFChampion";
-		"";
-		"";
-		"ZFTrash";
+	EmeraldSanctum = {
+		"",
+		"ESErennius";
+		"ESSolnius1";
+		"ESHardMode";
+		"",
+		"ESTrash";
 	};
 	ZulGurub = {
 		"Zandalar1";
@@ -950,23 +788,138 @@ AtlasLootBossButtons = {
 		"ZGSET";
 		"ZGEnchants";
 	};
-	LowerKara = {
+	TheRuinsofAhnQiraj = {
+		"Cenarion1";
+		"";
+		"AQ20Kurinnaxx";
+		"AQ20Andorov";
+		"";
+		"AQ20Rajaxx";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20CAPTAIN";
+		"AQ20Moam";
+		"AQ20Buru";
+		"AQ20Ayamiss";
+		"AQ20Ossirian";
 		"";
 		"";
-		"LKHRolfen";
+		"AQ20Trash";
+		"AQ20ClassBooks";
+		"AQ20Enchants";
+		"AQ20SET";
+	};
+	MoltenCore = {
+		"";
+		"WaterLords1";
+		"VanillaKeys";
+		"VanillaKeys";
+		"";
+		"MCIncindis";
+		"MCLucifron";
+		"MCMagmadar";
+		-- "MCGehennas";
+		"MCGarr";
+		"MCGeddon";
+		"MCShazzrah";
+		"MCSulfuron";
+		"MCGolemagg";
+		"MCTwins";
+		"MCThaurissan";
+		"MCMajordomo";
+		"MCRagnaros";
+		"";
+		"MCTrashMobs";
+		"MCRANDOMBOSSDROPS";
+		"T1SET";
+		"T2SET";
+	};
+	BlackwingLair = {
 		"";
 		"";
-		"LKHBroodQueenAraxxna";
-		"LKHGrizikil";
-		"";
-		"LKHClawlordHowlfang";
-		"LKHLordBlackwaldII";
 		"";
 		"";
+		"BWLRazorgore";
+		"BWLVaelastrasz";
+		"BWLLashlayer";
+		"BWLFiremaw";
 		"";
-		"LKHMoroes";
-		"LKHTrash";
-		"LKHEnchants";
+		"BWLEbonroc";
+		"BWLFlamegor";
+		"BWLChromaggus";
+		"BWLNefarian";
+		"";
+		"";
+		"";
+		"BWLTrashMobs";
+		"T2SET";
+	};
+	TheTempleofAhnQiraj = {
+		"AQBroodRings";
+		"";
+		"AQ40Skeram";
+		"AQ40Trio";
+		"";
+		"";
+		"";
+		"AQ40Sartura";
+		"AQ40Fankriss";
+		"AQ40Viscidus";
+		"AQ40Huhuran";
+		"AQ40Emperors";
+		"";
+		"";
+		"AQ40Ouro";
+		"AQ40CThun";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"AQ40Trash1";
+		"AQEnchants";
+		"AQ40SET";
+		"AQOpening";
+	};
+	Naxxramas = {
+		"";
+		"Argent1";
+		"";
+		"";
+		"";
+		"";
+		"NAXPatchwerk";
+		"NAXGrobbulus";
+		"NAXGluth";
+		"NAXThaddius";
+		"";
+		"NAXAnubRekhan";
+		"NAXGrandWidowFaerlina";
+		"NAXMaexxna";
+		"";
+		"NAXNoththePlaguebringer";
+		"NAXHeigantheUnclean";
+		"NAXLoatheb";
+		"";
+		"NAXInstructorRazuvious";
+		"NAXGothiktheHarvester";
+		"NAXTheFourHorsemen";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"NAXSapphiron";
+		"NAXKelThuzard";
+		"";
+		"NAXTrash";
+		"T3SET";
 	};
     UpperKara = {
         "";
@@ -982,52 +935,94 @@ AtlasLootBossButtons = {
 		"UKHMephistroth";
 		"UKHTrash";
     };
-	EmeraldSanctum = {
-		"",
-		"ESErennius";
-		"ESSolnius1";
-		"ESHardMode";
-		"",
-		"ESTrash";
+--入口地图
+	WailingCavernsEnt = {
+		"";
+		"";
+		"WCMadMagglish";
+		"WCTrigoretheLasher";
+		"WCBoahn";
+		"";
+		"";
+		"";
+		"";
+		"WCKalldanFelmoon";
+		"";
 	};
-	DragonmawRetreat = {
-		"",
-		"",
-		"DMRGowlfang",
-		"DMRBroodmother",
-		"DMRWebMaster",
-		"DMRGarlok",
-		"DMRHalgan",
-		"DMRSlagfist",
-		"DMROverlord",
-		"DMRElderHollowblood",
-		"DMRSearistrasz",
-		"DMRZuluhed",
-		"",
-		"DMRTrash",
+	TheDeadminesEnt = {
+		"";
+		"";
+		"DMMarisaduPaige";
+		"DMBrainwashedNoble";
+		"DMForemanThistlenettle";
 	};
-	StormwroughtRuins = {
-		"",
-		"",
-		"SWROronok",
-		"SWRDagar",
-		"SWRDukeBalor",
-		"SWRLibrarian",
-		"SWRChieftain",
-		"SWRDeathlord",
-		"SWRSubjugator",
-		"SWRMycellakos",
-		"SWREldermaw",
-		"SWRLadyDrazare",
-		"SWRRemains",
-		"SWRMergothid",
-		"",
-		"",
-		"SWRTrash",
+	GnomereganEnt = {
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"GnPunchographA";
+		"GnNamdoBizzfizzle";
+		"GnTechbot";
+		"";
+		"GnOutsideTrash";
+	};
+	UldamanEnt = {
+		"";
+		"";
+		"";
+		"UldMagreganDeepshadow";
+		"UldTabletofRyuneh";
+		"UldKromStoutarmChest";
+		"UldGarrettFamilyChest";
+		"UldShovelphlange";
+	};
+	MaraudonEnt = {
+		"";
+		"MaraNamelesProphet";
+		"";
+		"";
+		"";
+		"MaraKhanKolk";
+		"MaraKhanGelk";
+		"MaraKhanMagra";
+		"";
+	};
+	BlackrockMountainEnt = {
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"BRDPyron";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"BRMScarshieldQuartermaster";
+	};
+	DireMaulEnt = {
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"LunarFestival1";
 	};
 };
 --------------------------------------------------------------------------------
--- ItemIDs (default english)
+-- 领主掉落道具 (默认中文)
 --------------------------------------------------------------------------------
 AtlasLoot_Data["AtlasLootItems"] = {
 	--EmptyInstance = {};
