@@ -60,31 +60,31 @@ end
 function AtlasLootBRRepMenu()
 	AtlasLoot_PrepMenu("PVPMENU", AL["Blood Ring"])
 	--Friendly
-	AtlasLootMenuItem_2_Name:SetText("Friendly Reputation Rewards");
+	AtlasLootMenuItem_2_Name:SetText(AL["Friendly Reputation Rewards"]);
 	AtlasLootMenuItem_2_Extra:SetText("");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\inv_jewelry_ring_04");
 	AtlasLootMenuItem_2.lootpage="BRRepFriendly";
 	AtlasLootMenuItem_2:Show();
 	--Honored
-	AtlasLootMenuItem_3_Name:SetText("Honored Reputation Rewards");
+	AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\inv_jewelry_ring_04");
 	AtlasLootMenuItem_3.lootpage="BRRepHonored";
 	AtlasLootMenuItem_3:Show();
 	--Revered
-	AtlasLootMenuItem_4_Name:SetText("Revered Reputation Rewards");
+	AtlasLootMenuItem_4_Name:SetText(AL["Revered Reputation Rewards"]);
 	AtlasLootMenuItem_4_Extra:SetText("");
 	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\inv_jewelry_ring_04");
 	AtlasLootMenuItem_4.lootpage="BRRepRevered";
 	AtlasLootMenuItem_4:Show();
 	--Exalted
-	AtlasLootMenuItem_5_Name:SetText("Exalted Reputation Rewards");
+	AtlasLootMenuItem_5_Name:SetText(AL["Exalted Reputation Rewards"]);
 	AtlasLootMenuItem_5_Extra:SetText("");
 	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\inv_jewelry_ring_04");
 	AtlasLootMenuItem_5.lootpage="BRRepExalted";
 	AtlasLootMenuItem_5:Show();
 	--Token of Blood
-	AtlasLootMenuItem_6_Name:SetText("Token of Blood Rewards");
+	AtlasLootMenuItem_6_Name:SetText(AL["Token of Blood Rewards"]);
 	AtlasLootMenuItem_6_Extra:SetText("");
 	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\inv_jewelry_talisman_04");
 	AtlasLootMenuItem_6.lootpage="BRRepTokens";

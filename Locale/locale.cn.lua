@@ -703,6 +703,8 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Earth"] = "土",
 ["Air"] = "风",
 --形容词
+["ItemID:"] = "ID:",
+["Skill:"] = "",
 ["24 Slot"] = "24格",
 ["random stats"] = "随机属性",
 ["random resistance"] = "随机抗性",
