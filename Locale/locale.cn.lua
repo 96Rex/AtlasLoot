@@ -188,7 +188,7 @@ AL:RegisterTranslations("zhCN", function() return {
 
 --套装和收藏
 ["Sets"] = "经典旧世",
-["Dungeon 1/2 Sets"] = "T0 套装",
+["Dungeon 1/2 Sets"] = "D1/2套装",
 ["Tier 1 Sets"] = "T1 套装",
 ["Tier 2 Sets"] = "T2 套装",
 ["Tier 3 Sets"] = "T3 套装",
@@ -848,7 +848,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Doomforge Arcanasmith"] = "厄炉魔匠",
 ["Doomforge Craftsman"] = "厄炉工匠",
 ["Drohn's Distillery"] = "德罗恩的佳酿",
-["Drop Rate: "] = "掉落率: ",
+["Drop Rate: "] = "掉率: ",
 ["Druid of the Fang"] = "尖牙德鲁伊",
 ["Dukes"] = "公爵",
 ["Dungeon Set 1"] = "地下城套装1",
@@ -897,7 +897,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Imperial Plate"] = "君王板甲",
 ["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "AtlasLoot 检测到您正在使用的 Atlas 插件的版本与 AtlasLoot 需要的版本（",
 ["Item Unavailable"] = "物品不可用",
-["ItemID:"] = "itemID: ",
+["ItemID:"] = "ID: ",
 ["Kalldan Felmoon"] = "卡尔丹·暗月",
 ["Karrog"] = "卡尔洛格",
 ["Khorium Ward"] = "氪金套装",

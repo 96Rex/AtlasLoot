@@ -72,7 +72,7 @@ function AtlasLootSetMenu()
 	AtlasLootMenuItem_5.lootpage = "AQ40SET";
 	AtlasLootMenuItem_5:Show();
 	--Karazhan
-	AtlasLootMenuItem_6_Name:SetText(AL["Karazhan"] .. " " .. AL["Sets"]);
+	AtlasLootMenuItem_6_Name:SetText(AL["Karazhan Sets"]);
 	AtlasLootMenuItem_6_Extra:SetText("");
 	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\INV_Staff_Medivh");
 	AtlasLootMenuItem_6.lootpage = "KARASET";
@@ -822,7 +822,7 @@ function AtlasLootT3SetMenu()
 end
 
 function AtlasLoot_Kara40SetMenu()
-	AtlasLoot_PrepMenu("SETMENU", AL["Karazhan"] .. " " .. AL["Sets"])
+	AtlasLoot_PrepMenu("SETMENU", AL["Karazhan Sets"])
 	--Priest
 	AtlasLootMenuItem_3_Name:SetText("|cffffffff" .. AL["Priest"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
