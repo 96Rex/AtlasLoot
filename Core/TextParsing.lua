@@ -1,16 +1,16 @@
 local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
 --------------------------------------------------------------------------------
--- Text replacement function
+-- 文本替换
 --------------------------------------------------------------------------------
 
 local TextMap = {
-	-- Armor types
+	-- 护甲类型
 	["#a1#"] = AL["Cloth"],
 	["#a2#"] = AL["Leather"],
 	["#a3#"] = AL["Mail"],
 	["#a4#"] = AL["Plate"],
-	-- Equipment slots
+	-- 装备部位
 	["#s1#"] = AL["Head"],
 	["#s2#"] = AL["Neck"],
 	["#s3#"] = AL["Shoulder"],
@@ -27,12 +27,12 @@ local TextMap = {
 	["#s14#"] = AL["Trinket"],
 	["#s15#"] = AL["Held In Off-hand"],
 	["#s16#"] = AL["Relic"],
-	-- Weapon Weilding
+	-- 武器部位
 	["#h1#"] = AL["One-Hand"],
 	["#h2#"] = AL["Two-Hand"],
 	["#h3#"] = AL["Main Hand"],
 	["#h4#"] = AL["Off Hand"],
-	-- Weapon type
+	-- 武器类型
 	["#w1#"] = AL["Axe"],
 	["#w2#"] = AL["Bow"],
 	["#w3#"] = AL["Crossbow"],
@@ -48,7 +48,7 @@ local TextMap = {
 	["#w13#"] = AL["Fist Weapon"],
 	["#w14#"] = AL["Fishing Pole"],
 	["#w15#"] = AL["Spear"],
-	-- Misc. Equipment
+	-- 杂项
 	["#e1#"] = AL["Potion"],
 	["#e2#"] = AL["Food"],
 	["#e3#"] = AL["Drink"],
@@ -81,7 +81,9 @@ local TextMap = {
 	["#e32#"] = AL["random resistance"],
 	["#e33#"] = AL["random colour"],
 	["#e34#"] = AL["Toy"],
-	-- Classes
+	["#e35#"] = AL["Brazier of Invocation"],
+	["#e36#"] = AL["Banner of Provocation"],
+	-- 职业类型
 	["#c1#"] = AL["Druid"],   -- =q13=#c1#
 	["#c2#"] = AL["Hunter"],  -- =q14=#c2#
 	["#c3#"] = AL["Mage"],    -- =q10=#c3#
@@ -91,12 +93,12 @@ local TextMap = {
 	["#c7#"] = AL["Shaman"],  -- =q15=#c7#
 	["#c8#"] = AL["Warlock"], -- =q11=#c8#
 	["#c9#"] = AL["Warrior"], -- =q17=#c9#
-	-- Skill
+	-- 专业级别
 	["#sk1#"] = AL["Apprentice"],
 	["#sk2#"] = AL["Journeyman"],
 	["#sk3#"] = AL["Expert"],
 	["#sk4#"] = AL["Artisan"],
-	-- Professions
+	-- 专业类型
 	["#p1#"] = AL["Alchemy"],
 	["#p2#"] = AL["Blacksmithing"],
 	["#p3#"] = AL["Cooking"],
@@ -114,34 +116,34 @@ local TextMap = {
 	["#p16#"] = AL["Survival"],
 	["#p17#"] = AL["Gardening"],
 	["#p18#"] = AL["Jewelcrafting"],
-	-- Reputation
+	-- 声望级别
 	["#r1#"] = AL["Neutral"],
 	["#r2#"] = AL["Friendly"],
 	["#r3#"] = AL["Honored"],
 	["#r4#"] = AL["Revered"],
 	["#r5#"] = AL["Exalted"],
-	-- Battleground Factions
+	-- 战场阵营
 	["#b1#"] = AL["Stormpike Guard"],
 	["#b2#"] = AL["Frostwolf Clan"],
 	["#b3#"] = AL["Silverwing Sentinels"],
 	["#b4#"] = AL["Warsong Outriders"],
 	["#b5#"] = AL["The League of Arathor"],
 	["#b6#"] = AL["The Defilers"],
-	-- BRDArena
+	-- 黑石深渊竞技场随机boss
 	["#brd1#"] = AL["Anub'shiah"],
 	["#brd2#"] = AL["Eviscerator"],
 	["#brd3#"] = AL["Gorosh the Dervish"],
 	["#brd4#"] = AL["Grizzle"],
 	["#brd5#"] = AL["Hedrum the Creeper"],
 	["#brd6#"] = AL["Ok'thor the Breaker"],
-	-- Sunken Temple Mini Bosses
+	-- 沉没的神庙法阵守护者boss
 	["#st1#"] = AL["Gasher"],
 	["#st2#"] = AL["Hukku"],
 	["#st3#"] = AL["Loro"],
 	["#st4#"] = AL["Mijan"],
 	["#st5#"] = AL["Zolo"],
 	["#st6#"] = AL["Zul'Lor"],
-	-- Misc phrases and mod specific stuff
+	-- 形容词
 	["#m1#"] = AL["Classes"],
 	["#m2#"] = AL["This Item Begins a Quest"],
 	["#m3#"] = AL["Quest Item"],
@@ -183,7 +185,11 @@ local TextMap = {
 	["#m39#"] = AL["Bijou"],
 	["#m40#"] = AL["Doll"],
 	["#m41#"] = AL["(250)"],
-	-- Random names
+	["#m42#"] = AL["From Elites Outside Dungeon"],
+	["#m43#"] = AL["Vendor"],
+	["#m44#"] = AL["Pickpocketed"],
+	["#m45#"] = AL["Sells:"],
+	-- 部分怪物名称
 	["#x1#"] = AL["Lord Cobrahn"],
 	["#x2#"] = AL["Lady Anacondra"],
 	["#x3#"] = AL["Lord Serpentis"],
@@ -280,7 +286,14 @@ local TextMap = {
 	["#x94#"] = AL["Princess Tempestria"],
 	["#x95#"] = AL["The Windreaver"],
 	["#x96#"] = AL["Mr. Smite"],
-	-- Misc
+	["#x97#"] = AL["Searing Blade Warlock"],
+	["#x98#"] = AL["Hurley Blackbreath"],
+	["#x99#"] = AL["Phalanx"],
+	["#x100#"] = AL["Lokhtos Darkbargainer"],
+	["#x101#"] = AL["Ribbly Screwspigot"],
+	["#x102#"] = AL["Plugger Spazzring"],
+	["#x103#"] = AL["Chest of The Seven"],
+	-- 杂项
 	["#j1#"] = AL["Dungeon 1 Set"],
 	["#j2#"] = AL["Dungeon 2 Set"],
 	["#j3#"] = AL["D2 Summonable"],

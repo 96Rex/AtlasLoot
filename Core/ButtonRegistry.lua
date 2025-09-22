@@ -2186,7 +2186,13 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["RFCBazzalan"] = {
 		Title = AL["Bazzalan"];
+		Next_Page = "RFCTrash";
 		Prev_Page = "RFCJergosh";
+		Back_Page = "DUNGEONSMENU1";
+	};
+	["RFCTrash"] = {
+		Title = AL["Trash Mobs"];
+		Prev_Page = "RFCBazzalan";
 		Back_Page = "DUNGEONSMENU1";
 	};
 	-- Razorfen Downs

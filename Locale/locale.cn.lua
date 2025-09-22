@@ -511,7 +511,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Barkskin Fisher"] = "树皮渔夫",
 ["Crusader Larsarius"] = "大十字军 拉萨里斯",
 ["Shadeflayer Goliath"] = "影灭者 歌利亚",
---副本子项
+
 --职业分类
 ["Warlock"] = "术士",
 ["Warrior"] = "战士",
@@ -566,7 +566,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Blood Ring Revered Rewards"] = "血环竞技场 崇敬声望奖励",
 ["Token of Blood Rewards"] = "血环币",
 ["Rank 14 Weapons"] = "武器",
---通用字符串
+--挑战模式
 ["Level One Lunatic Challenge"] = "一级疯子挑战",
 --武器部位
 ["Main Hand"] = "主手",
@@ -630,7 +630,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["AQ Enchants"] = "安其拉-附魔公式",
 ["ZG Enchants"] = "祖尔格拉布-附魔公式",
 ["Bandage"] = "绷带",
---怪物名字
+--部分怪物名字
 ["Defias Pirate"] = "迪菲亚海盗",
 ["Prisoner/Insurgent/Convict"] = "迪菲亚囚犯/叛军/罪犯",
 ["Protector"] = "血色保卫者",
@@ -650,6 +650,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Murk Worm"] = "黑暗虫",
 ["Hurley Blackbreath"] = "霍尔雷·黑须",
 ["Phalanx"] = "法拉克斯",
+["Lokhtos Darkbargainer"] = "罗克图斯·暗契",
 ["Ribbly Screwspigot"] = "雷布里·斯库比格特",
 ["Plugger Spazzring"] = "普拉格",
 ["Hammered Patron"] = "持铁锤的顾客",
@@ -688,6 +689,8 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Earthen Templar"] = "土色圣殿骑士",
 ["Hoary Templar"] = "苍白圣殿骑士",
 ["Azure Templar"] = "碧蓝圣殿骑士",
+["Searing Blade Warlock"] = "燃刃术士",
+["Dark Iron Agent"] = "黑铁密探",
 --玩家阵营
 ["Horde"] = "部落",
 ["Alliance"] = "联盟",
@@ -708,7 +711,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["24 Slot"] = "24格",
 ["random stats"] = "随机属性",
 ["random resistance"] = "随机抗性",
-["D2 Summonable"] = "可召唤",
+["D2 Summonable"] = "召唤",
 ["Quest Reward"] = "任务奖励",
 ["Chest of The Seven"] = "七贤之箱",
 ["Container"] = "容器",
@@ -744,11 +747,18 @@ AL:RegisterTranslations("zhCN", function() return {
 ["(has random enchantment)"] = "(随机附魔)",
 ["AQ Opening Quest Chain"] = "安其拉之门任务奖励",
 ["Accessories"] = "杂物",
+["From Elites Outside Dungeon"] = "副本外精英小怪",
+["Vendor"] = "出售",
+["Pickpocketed"] = "偷窃",
+["Brazier of Invocation"] = "符咒火盆",
+["Banner of Provocation"] = "挑战之旗",
+["Sells:"] = "出售:",
 --交互对象
 ["Schematic: Field Repair Bot 74A"] = "结构图:修理机器人74A型",
 ["Blacksmithing Plans"] = "锻造设计图",
 ["Scarab Coffer"] = "圣甲虫箱",
 ["Baelog's Chest"] = "巴尔洛戈的箱子",
+
 --地图&区域
 ["Stonetalon Mountains"] = "石爪山脉",
 ["Tirisfal Glades"] = "提瑞斯法林地",
@@ -1222,10 +1232,11 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Web Master Torkon"] = "织网大师托尔康";
 ["Garlok Flamekeeper"] = "护火者加尔洛克";
 ["Halgan Redbrand"] = "红印哈尔甘";
+["Slagfist Destroyer"] = "熔拳毁灭者";
+["Overlord Blackheart"] = "黑心大王";
 ["Elder Hollowblood"] = "空血长老";
 ["Searistrasz"] = "灼焰斯特拉斯";
 ["Zuluhed the Whacked"] = "疲惫的祖鲁赫德<龙喉酋长>";
-
 ["Gnomeregan"] = "诺莫瑞根";
 ["Grubbis"] = "格鲁比斯";
 ["Viscous Fallout"] = "粘性辐射尘";

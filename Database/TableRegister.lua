@@ -5,10 +5,10 @@ is in the search function, as when iterating through the loot tables there is no
 inherant title to the loot table, given the origins of the mod as an Atlas plugin.
 ]]
 
---Invoke libraries
+--引入本地化库
 local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
---Table of loot titles
+--表和掉落标题
 AtlasLoot_TableNames = {
 	--Keys
 	["VanillaKeys"] = { AL["Keys"], "AtlasLootItems" },
@@ -224,6 +224,7 @@ AtlasLoot_TableNames = {
 	["RFCOggleflint"] = { AL["Ragefire Chasm"].." - "..AL["Oggleflint"], "AtlasLootItems" },
 	["RFCTaragaman"] = { AL["Ragefire Chasm"].." - "..AL["Taragaman the Hungerer"], "AtlasLootItems" },
 	["RFCJergosh"] = { AL["Ragefire Chasm"].." - "..AL["Jergosh the Invoker"], "AtlasLootItems" },
+	["RFCTrash"] = { AL["Ragefire Chasm"].." - "..AL["Trash Mobs"], "AtlasLootItems" },
 	--Razorfen Downs
 	["RFDTutenkash"] = { AL["Razorfen Downs"].." - "..AL["Tuten'kash"], "AtlasLootItems" },
 	["RFDHenryStern"] = { AL["Razorfen Downs"].." - "..AL["Henry Stern"], "AtlasLootItems" },
